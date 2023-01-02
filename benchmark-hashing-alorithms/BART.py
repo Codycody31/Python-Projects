@@ -2,8 +2,6 @@ import timeit
 import hashlib
 import random
 import string
-import sys
-import os
 import argparse
 import csv
 import json
