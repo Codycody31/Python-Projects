@@ -1,10 +1,5 @@
 import argparse
 import sys
-import os
-import csv
-import json
-import datetime
-import platform
 from cryptography.fernet import Fernet
 
 
