@@ -399,7 +399,7 @@ def game():
     os.environ['SDL_VIDEO_CENTERED'] = '1'
     os.environ['SDL_VIDEO_WINDOW_POS'] = "%d,%d" % (0, 0)
     pygame.display.update()
-    time.sleep(5)
+    time.sleep(2.5)
     pygame.display.set_mode((display_width, display_height))
     pygame.display.set_caption('Snake Game')
     game_intro()
